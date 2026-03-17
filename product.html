@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Range | Natural Sip</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; color: #1a1a1a; background-color: #fdfdfd; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1613478223719-2ab80260f003?q=80&w=2000'); background-size: cover; background-position: center; color: white; padding: 80px 20px; text-align: center; }
+        .container { padding: 50px 20px; max-width: 1100px; margin: auto; }
+        .product-grid { display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; }
+        .product-card { flex: 1; min-width: 300px; max-width: 350px; background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.05); text-align: center; padding-bottom: 25px; transition: transform 0.3s; }
+        .product-card:hover { transform: translateY(-10px); }
+        .product-card img { width: 100%; height: 250px; object-fit: cover; }
+        .flavor-title { color: #1e5631; font-size: 1.5rem; margin: 15px 0 5px 0; }
+        .flavor-tag { color: #d4af37; font-weight: bold; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
+        .desc { padding: 0 20px; color: #666; font-size: 0.95rem; }
+        .back-home { display: block; width: fit-content; margin: 50px auto; color: #1e5631; text-decoration: none; font-weight: bold; border: 2px solid #1e5631; padding: 12px 30px; border-radius: 30px; }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1 style="font-size: 3rem; margin: 0;">Our Collection</h1>
+        <p style="font-size: 1.2rem; opacity: 0.9;">Pure fruit. No compromises.</p>
+    </div>
+
+    <div class="container">
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="citrus.jpg">
+                <div class="flavor-tag">Defense Series</div>
+                <h3 class="flavor-title">Citrus & Ginger</h3>
+                <p class="desc">A sharp, zesty blend of cold-pressed oranges with a warm, spicy kick of bioactive ginger root.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="mango.jpg">
+                <div class="flavor-tag">Pure Series</div>
+                <h3 class="flavor-title">Honey-Gold Mango</h3>
+                <p class="desc">Velvety smooth mango nectar harvested at peak maturity for a rich, naturally sweet profile.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="hibiscus.jpg">
+                <div class="flavor-tag">Botanical Series</div>
+                <h3 class="flavor-title">Hibiscus drink</h3>
+                <p class="desc">A sophisticated blend of forest berries infused with local Nigerian hibiscus for a floral, tart finish.</p>
+            </div>
+
+        </div>
+
+        <a href="index.html" class="back-home">Return to Home</a>
+    </div>
+
+</body>
+</html>
